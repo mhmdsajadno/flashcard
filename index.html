@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/flashcard.js" defer></script>
+  </head>
+  <body>
+    <div class="userinput">
+      <p>Question:</p>
+      <textarea id="question" onchange="question()"></textarea>
+      <p>Answer:</p>
+      <textarea id="answer" onchange="answer()"></textarea>
+      <br />
+      <button id="create" onclick="create()">Create</button>
+    </div>
+  </body>
+</html>
