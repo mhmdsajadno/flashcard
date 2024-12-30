@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+textarea {
+    height: 3rem;
+    width: 300px;
+    padding: 1px;
+    margin: 0;
+    border: solid rgb(211, 211, 211) 1px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0ch;
+    font-weight: bold;
+}
+
+button#create {
+    margin-top: 3px;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid rgb(211, 211, 211) 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-duration: 0.6s;
+}
+button#create:hover {
+    transition-duration: 0.6s;
+    background-color: rgb(31, 141, 16);
+    color: white;
+}
+
+.userinput {
+    float: left;
+    background-color: white;
+    margin: 1cm;
+    margin-bottom: 0;
+    border: solid rgb(211, 211, 211) 1px;
+    border-radius: 5px;
+    border-collapse: separate;
+    padding: 1cm;
+}
+
+.useroutput {
+    background-color: white;
+    margin: 1cm;
+    width: 10cm;
+    height: 6cm;
+    padding-top: 1cm;
+    text-align: center;
+    border: solid rgb(211, 211, 211) 1px;
+    border-radius: 5px;
+    float: left;
+}
+
+button#divBtn{
+    margin-top: 3px;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid rgb(211, 211, 211) 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-duration: 0.6s;
+}
+button#divBtn:hover{
+    transition-duration: 0.6s;
+    background-color: rgb(194, 31, 31);
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color: rgb(71, 71, 71);
+}
